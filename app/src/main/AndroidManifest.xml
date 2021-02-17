@@ -11,7 +11,7 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.HouseHemnet"
             >
-        <activity android:name=".properties.ListActivity">
+        <activity android:name=".propertiesList.ListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

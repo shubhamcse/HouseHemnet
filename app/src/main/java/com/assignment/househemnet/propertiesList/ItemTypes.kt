@@ -1,4 +1,4 @@
-package com.assignment.househemnet.properties
+package com.assignment.househemnet.propertiesList
 
 sealed class ItemTypes(val name:String) {
     object Area : ItemTypes("Area")

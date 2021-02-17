@@ -2,8 +2,8 @@ package com.assignment.househemnet.utils
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.assignment.househemnet.properties.ListRepository
-import com.assignment.househemnet.properties.ListViewModel
+import com.assignment.househemnet.propertiesList.ListRepository
+import com.assignment.househemnet.propertiesList.ListViewModel
 
 class ListViewModelFactory (private val listRepository: ListRepository) : ViewModelProvider.Factory {
 

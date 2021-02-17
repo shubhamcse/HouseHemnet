@@ -1,4 +1,4 @@
-package com.assignment.househemnet.properties
+package com.assignment.househemnet.propertiesList
 
 import com.assignment.househemnet.utils.PropertyItemsDeserializer
 import com.assignment.househemnet.utils.Resource

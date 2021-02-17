@@ -1,9 +1,9 @@
 package com.assignment.househemnet.utils
 
-import com.assignment.househemnet.properties.Area
-import com.assignment.househemnet.properties.Item
-import com.assignment.househemnet.properties.ItemTypes
-import com.assignment.househemnet.properties.Property
+import com.assignment.househemnet.propertiesList.Area
+import com.assignment.househemnet.propertiesList.Item
+import com.assignment.househemnet.propertiesList.ItemTypes
+import com.assignment.househemnet.propertiesList.Property
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement

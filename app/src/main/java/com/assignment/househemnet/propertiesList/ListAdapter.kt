@@ -1,4 +1,4 @@
-package com.assignment.househemnet.properties
+package com.assignment.househemnet.propertiesList
 
 import android.content.Context
 import android.graphics.Color
