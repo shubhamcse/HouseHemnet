@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    <TextView
+        android:id="@+id/text_view_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
+        tools:text="Stockholm"/>
+
+    <TextView
+        android:id="@+id/text_view_grade_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_address"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:text="Betyg:"
+        tools:text="Betyg:"/>
+
+    <TextView
+        android:id="@+id/text_view_grade_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/text_view_grade_label"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_address"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        tools:text="4.5/5"/>
+
+    <TextView
+        android:id="@+id/text_view_average_price_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_grade_label"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:text="Snittpris:"
+        tools:text="Snittpris:"/>
+
+    <TextView
+        android:id="@+id/text_view_average_price_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/text_view_average_price_label"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_grade_label"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        tools:text="20 014 kr/m2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

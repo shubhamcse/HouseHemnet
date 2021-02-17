@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HouseHemnet</string>
+    <string name="days_on_hemnet">%1$d dagar</string>
+    <string name="rooms">%1$d rum</string>
+    <string name="area">%1$d m<sup>2</sup></string>
+    <string name="location">%1$s , %2$s</string>
+</resources>
